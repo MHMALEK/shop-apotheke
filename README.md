@@ -1,1 +1,1 @@
-# shop-apotheke
+# Shop APOTHEKE FRONT end code

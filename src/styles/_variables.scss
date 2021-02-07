@@ -1,0 +1,37 @@
+// colors
+$color--primary: #e30410;
+$color--text-primary: #444444;
+$color--default-background: #f4f4f4;
+$color--secondary: #005091;
+$color--star: #ffc107;
+
+// utils
+$box-shadow--default: 1px 3px 6px #c1c1c1;
+
+// paddings
+$dimension_sizes: 8px, 16px, 24px, 32px, 64px;
+
+$padding--left-md: 16px;
+$padding--right-md: 16px;
+
+
+@each $size in $dimension_sizes {
+  .padding-#{$size} {
+    padding: $size;
+  }
+  .padding-right-#{$size} {
+    padding-right: $size;
+  }
+  .padding-left-#{$size} {
+    padding-left: $size;
+  }
+  .padding-bottom-#{$size} {
+    padding-left: $size;
+  }
+  .padding-top-#{$size} {
+    padding-top: $size;
+  }
+}
+
+// margins
+$dimension_sizes_variables: 8px, 16px, 24px, 32px, 64px;

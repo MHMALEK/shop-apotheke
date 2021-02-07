@@ -1,0 +1,10 @@
+@import '../../styles/index.scss';
+.mainHeader {
+  background-color: $color--default-background;
+  box-shadow: $box-shadow--default;
+  composes: padding-8px from '../../styles/index.scss';
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
