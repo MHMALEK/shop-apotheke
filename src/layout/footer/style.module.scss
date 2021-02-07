@@ -1,0 +1,6 @@
+@import '../../styles/index.scss';
+
+.mainFooter {
+  background-color: $color--default-background;
+  composes: padding-8px from '../../styles/index.scss';
+}
